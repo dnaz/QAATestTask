@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QAATestTaskSuite">
+    <test name="BuyRandomItemTest">
+        <classes>
+            <class name="BuyRandomItemTest">
+                <methods>
+                    <include name="buyRandomItemTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
