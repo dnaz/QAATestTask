@@ -1,5 +1,5 @@
-import Managers.AppManager;
-import Managers.SingletonAppManager;
+import managers.AppManager;
+import managers.SingletonAppManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

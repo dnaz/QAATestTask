@@ -1,4 +1,4 @@
-package Managers;
+package managers;
 
 public class SingletonAppManager {
     private static SingletonAppManager singleInstance = null;

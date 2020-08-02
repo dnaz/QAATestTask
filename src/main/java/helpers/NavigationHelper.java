@@ -1,8 +1,8 @@
-package Helpers;
+package helpers;
 
-import Managers.AppManager;
-import Managers.PageManager;
-import Utils.PropertyLoader;
+import managers.AppManager;
+import managers.PageManager;
+import utils.PropertyLoader;
 import io.qameta.allure.Step;
 
 public class NavigationHelper extends PageManager {

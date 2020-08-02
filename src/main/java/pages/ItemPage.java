@@ -1,6 +1,6 @@
-package Pages;
+package pages;
 
-import Managers.PageManager;
+import managers.PageManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

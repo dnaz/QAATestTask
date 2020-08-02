@@ -1,5 +1,5 @@
-import Utils.CustomerTestListener;
-import Utils.PropertyLoader;
+import utils.CustomerTestListener;
+import utils.PropertyLoader;
 import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;

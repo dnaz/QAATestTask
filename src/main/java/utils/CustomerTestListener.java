@@ -1,6 +1,6 @@
-package Utils;
+package utils;
 
-import Managers.PageManager;
+import managers.PageManager;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

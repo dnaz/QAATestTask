@@ -1,7 +1,7 @@
-package Helpers;
+package helpers;
 
-import Managers.AppManager;
-import Managers.PageManager;
+import managers.AppManager;
+import managers.PageManager;
 import io.qameta.allure.Step;
 
 public class ItemHelper extends PageManager {
