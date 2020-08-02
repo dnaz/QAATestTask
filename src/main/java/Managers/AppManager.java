@@ -1,7 +1,6 @@
 package Managers;
 
 import Helpers.*;
-import Utils.PropertyLoader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,9 +20,8 @@ public class AppManager {
 
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions().addArguments("--incognito")
-                .addArguments(PropertyLoader.loadProperty("driver.props"));
+                .addArguments("--start-maximized");
         driver = new ChromeDriver(options);
-
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 

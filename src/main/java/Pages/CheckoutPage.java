@@ -2,6 +2,7 @@ package Pages;
 
 import Managers.PageManager;
 import io.qameta.allure.Step;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -85,9 +86,9 @@ public class CheckoutPage extends Page {
         wait.until(ExpectedConditions.visibilityOf(contactCityFieldLocator));
         contactCityFieldLocator.clear();
         contactCityFieldLocator.sendKeys(contactCity);
-        contactCityFieldLocator.click();
-        wait.until(ExpectedConditions.visibilityOf(contactCityLocator));
-        contactCityLocator.click();
+//        contactCityFieldLocator.click();
+//        wait.until(ExpectedConditions.visibilityOf(contactCityLocator));
+//        contactCityLocator.click();
     }
 
     @Step("Get item name")
@@ -100,10 +101,10 @@ public class CheckoutPage extends Page {
     public void chooseDeliveryAddress() {
         wait.until(ExpectedConditions.visibilityOf(deliveryTypeLocator));
         deliveryTypeLocator.click();
-        wait.until(ExpectedConditions.visibilityOf(deliveryOptionLocator));
-        deliveryOptionLocator.click();
-        wait.until(ExpectedConditions.visibilityOf(deliveryAddressLocator));
-        deliveryAddressLocator.click();
+//        wait.until(ExpectedConditions.visibilityOf(deliveryOptionLocator));
+//        deliveryOptionLocator.click();
+//        wait.until(ExpectedConditions.visibilityOf(deliveryAddressLocator));
+//        deliveryAddressLocator.click();
     }
 
     @Step("Choose payment option")

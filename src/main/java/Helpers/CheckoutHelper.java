@@ -36,7 +36,7 @@ public class CheckoutHelper extends PageManager {
     @Step("Enter recipient data")
     public void enterRecipientData(String recipientSurname, String recipientName, String recipientPatronymic,
                                       String recipientPhone) {
-        checkoutPage.chooseRecipientOption();
+//        checkoutPage.chooseRecipientOption();
         checkoutPage.setRecipientSurname(recipientSurname);
         checkoutPage.setRecipientName(recipientName);
         checkoutPage.setRecipientPatronymic(recipientPatronymic);
