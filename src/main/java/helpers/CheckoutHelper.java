@@ -37,6 +37,7 @@ public class CheckoutHelper extends PageManager {
     public void enterRecipientData(String recipientSurname, String recipientName, String recipientPatronymic,
                                       String recipientPhone) {
 //        checkoutPage.chooseRecipientOption();
+        //commented because  sendKeys() doesn't work on the checkout page
         checkoutPage.setRecipientSurname(recipientSurname);
         checkoutPage.setRecipientName(recipientName);
         checkoutPage.setRecipientPatronymic(recipientPatronymic);

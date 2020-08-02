@@ -88,6 +88,7 @@ public class CheckoutPage extends Page {
 //        contactCityFieldLocator.click();
 //        wait.until(ExpectedConditions.visibilityOf(contactCityLocator));
 //        contactCityLocator.click();
+        //commented because  sendKeys() doesn't work on the checkout page
     }
 
     @Step("Get item name")
@@ -104,6 +105,7 @@ public class CheckoutPage extends Page {
 //        deliveryOptionLocator.click();
 //        wait.until(ExpectedConditions.visibilityOf(deliveryAddressLocator));
 //        deliveryAddressLocator.click();
+        //commented because  sendKeys() doesn't work on the checkout page
     }
 
     @Step("Choose payment option")
